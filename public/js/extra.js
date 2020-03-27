@@ -15,6 +15,7 @@ import { stripTags } from '../../utils/string'
 
 import getUIElements from './lib/editor/ui-elements'
 import { emojifyImageDir } from './lib/editor/constants'
+import './lib/renderer/lightbox'
 
 import markdownit from 'markdown-it'
 import markdownitContainer from 'markdown-it-container'
